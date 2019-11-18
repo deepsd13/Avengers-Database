@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--Index page of the application-->
+<html>
+    <head>
+        <title>Avengers Assemble</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="CSS/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Paprika' rel='stylesheet'>
+
+    </head>
+    <body>
+        <h1><img src="assets/marvel.png" alt="marvel studios" height="120" width="600"></h1>
+        <div id= "nav-container">
+            <h2>Welcome Nick Fury!<br>What would you like to do?</h2>
+            <!--Form to call servlets/ methods-->
+            <form method="GET">
+                <!--Button to modify and display avengers and power source-->
+                <input type="submit" value ="Display Avengers" formaction="GetAvengers.do" style="margin-left:170px"><br><br>
+                <input type="submit" value ="Add Avenger" formaction="addAvenger.jsp">
+                <input type="submit" value ="Add Powersource" formaction="addPowersource.jsp" style="margin-left: 100px"><br><br>
+                <input type="submit" value ="Remove Avenger" formaction="removeAvenger.jsp">
+                <input type="submit" value ="Remove Powersource" formaction="removePowersource.jsp" style="margin-left: 100px">           
+            </form>
+        </div>
+    </body>
+</html>

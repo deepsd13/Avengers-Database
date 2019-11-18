@@ -1,0 +1,52 @@
+/* Css file for the error page*/
+
+/* body tag of the page*/
+#errorBody {
+    background-image: url("../assets/errorBG.jpg");
+}  
+
+/* The title of the page*/
+#error500{
+    width:100%;
+    color:red;
+    text-align: center; 
+    border-radius: 5px;
+    font-family: 'Paprika';
+    background-color:#1B1B1B;
+}
+/* h1 tag of page*/
+#errorH1{
+    text-align: center;
+
+}
+/* the div tag of the page*/
+#errorDiv{
+    text-align: center;
+    margin-top:120px;
+    margin-left: 200px;
+    align-items: center;
+    font-family: 'Paprika';
+    display:flex;
+    color:#1B1B1B;
+}
+/*h2 tag of the page*/
+#errorH2{
+    margin-top: 0px;
+    text-align: center;
+}
+
+a{
+    border:1px solid black;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: red;
+}
